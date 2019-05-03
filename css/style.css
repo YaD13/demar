@@ -835,7 +835,7 @@ hr + * {
   font-size: 32px;
   font-weight: 700;
   line-height: 34px;
-  text-transform: lowercase;
+  text-transform: capitalize;
   font-family: "Montserrat", sans-serif;
   color: #333;
 }
