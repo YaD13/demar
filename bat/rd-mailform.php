@@ -2,7 +2,7 @@
 
 sleep(3);
 
-$recipients = 'test@demolink.com';
+$recipients = 'yad.13.zt@gmail.com';
 //$recipients = '#';
 
 try {

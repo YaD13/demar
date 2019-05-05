@@ -91,6 +91,7 @@ h2, .heading-2 {
 h2.counter, .heading-2.counter {
   padding-left: 65px;
   position: relative;
+  white-space: nowrap;
 }
 h2.counter:before, .heading-2.counter:before {
   content: counter(num,decimal-leading-zero);
@@ -2390,4 +2391,8 @@ footer {
 }
 footer, footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer .heading-1, footer .heading-2, footer .heading-3, footer .heading-4, footer .heading-5, footer .heading-6 {
   color: #333;
+}
+
+.styled-list {
+  list-style-type: initial;
 }
