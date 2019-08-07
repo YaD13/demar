@@ -2393,6 +2393,21 @@ footer, footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer
   color: #333;
 }
 
-.styled-list {
-  list-style-type: initial;
+@media (min-width: 1200px) {
+  .styled-list {
+    list-style-type: initial;
+  }
+
+  .well4 .styled-list{
+    padding-left: 30px;
+  }
+
 }
+
+@media (max-width: 1200px) {
+  .well4 .styled-list{
+    width: 100%;
+  }
+
+}
+
